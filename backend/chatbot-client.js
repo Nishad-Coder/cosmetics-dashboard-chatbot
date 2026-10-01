@@ -23,7 +23,9 @@ function findPython() {
     return process.env.CHATBOT_PYTHON;
   }
 
-  return process.platform === 'win32' ? 'python' : 'python3';
+  return process.platform === 'win32'
+    ? 'python'
+    : '/usr/bin/python3';
 }
 
 class ChatbotClient {
