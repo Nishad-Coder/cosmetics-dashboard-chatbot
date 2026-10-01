@@ -19,9 +19,11 @@ const fs = require('fs');
 const CHATBOT_DIR = path.join(__dirname, 'chatbot');
 
 function findPython() {
-  // Render/Linux has python3 available in the Docker image.
-  // Windows development environments usually have python.
-  return process.env.CHATBOT_PYTHON || (process.platform === 'win32' ? 'python' : 'python3');
+  if (process.env.CHATBOT_PYTHON) {
+    return process.env.CHATBOT_PYTHON;
+  }
+
+  return process.platform === 'win32' ? 'python' : 'python3';
 }
 
 class ChatbotClient {
