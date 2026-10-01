@@ -23,8 +23,17 @@ export default function Navbar({ activeSection, onNavigate }) {
           title="Dot &amp; Key"
         >
           <span className="brand-logo-track">
-            <img className="brand-logo-img" src="/logo-dotandkey.svg" alt="Dot &amp; Key" />
-            <img className="brand-logo-tagline" src="/logo-feels-good.svg" alt="Feels good" />
+<img
+  className="brand-logo-img"
+  src={`${import.meta.env.BASE_URL}logo-dotandkey.svg`}
+  alt="Dot & Key"
+/>
+
+<img
+  className="brand-logo-tagline"
+  src={`${import.meta.env.BASE_URL}logo-feels-good.svg`}
+  alt="Feels good"
+/>
           </span>
         </a>
       </div>
