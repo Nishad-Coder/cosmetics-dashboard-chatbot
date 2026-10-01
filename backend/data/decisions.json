@@ -1,0 +1,49 @@
+{
+  "decisions": [
+    {
+      "priority": "High",
+      "decision_title": "Pause Watermelon_Range_Awareness campaign immediately",
+      "what_happened": "This campaign has spent ₹26.4L over 90 days but generated only ₹2.9L in revenue — a loss of ₹23.6L. ROAS is 0.11x, meaning every rupee spent loses 89 paise. CPA is ₹6,064, which is 11.5x the overall average of ₹526. CTR (0.75%) and CVR (0.49%) are both the lowest across all campaigns.",
+      "why_it_matters": "This single campaign accounts for 15% of total ad spend but contributes only 1.2% of total revenue. It is the primary driver of overall ROAS decline. The money spent here could generate 4x more returns if reallocated to retargeting campaigns.",
+      "business_impact": "Immediate savings: ₹2.2L/month (current burn rate). If reallocated to Retargeting_AllProducts at 4.14x ROAS, potential additional revenue: ₹9.1L/month. Net impact: ₹9.1L additional revenue per month.",
+      "recommended_action": "1. Pause all ad sets under Watermelon_Range_Awareness immediately. 2. Reallocate 70% of the budget (₹1.5L/month) to Retargeting_AllProducts. 3. Reallocate 30% to Tinted_SPF_Launch_Conversions. 4. If awareness is a strategic goal, relaunch with a 50% reduced budget, narrower audience (25-44), and new creatives. 5. Set a CPA cap of ₹2,000 for any future awareness campaigns.",
+      "confidence_score": 0.95
+    },
+    {
+      "priority": "High",
+      "decision_title": "Scale Retargeting_AllProducts budget by 40%",
+      "what_happened": "Retargeting_AllProducts is the highest-performing campaign with 4.14x ROAS — 3x the overall average. It generates ₹50.5L profit on ₹16.1L spend (87% of total profit). CPA is ₹170, the lowest across all campaigns. Both ad sets (ATC_7d and ViewContent_14d) perform equally well at 4.2x ROAS.",
+      "why_it_matters": "This campaign proves that retargeting existing audiences is 3x more efficient than acquisition campaigns. Current budget is only 9.2% of total spend. Increasing budget will directly increase profit at the highest marginal ROAS in the portfolio.",
+      "business_impact": "Additional spend: ₹6.4L/month. At current 4.14x ROAS, expected additional revenue: ₹26.5L/month. Expected additional profit: ₹20.1L/month. This is the highest-ROI budget allocation available.",
+      "recommended_action": "1. Increase daily budget for Retargeting_AllProducts by 40% (from ₹18K to ₹25K/day). 2. Monitor CPA closely — if it exceeds ₹250, pause the increase. 3. Create a 5% lookalike audience of retargeting purchasers to expand the pool. 4. Test a new ad set targeting cart abandoners with a 7-day window. 5. Set up weekly ROAS monitoring to detect audience saturation early.",
+      "confidence_score": 0.92
+    },
+    {
+      "priority": "High",
+      "decision_title": "Investigate and fix the May 14-15 conversion tracking failure",
+      "what_happened": "On May 14-15, all campaigns simultaneously experienced an 89% drop in revenue and purchases. ROAS fell from 1.33x to 0.15x. CPA spiked 667% to ₹4,683. This was a systemic issue affecting all campaigns, not a single campaign problem.",
+      "why_it_matters": "A 2-day tracking failure means 2 days of data is unreliable for decision-making. If this happens again during a peak period, it could cost ₹2L+ in wasted spend without detection. Root cause analysis is needed to prevent recurrence.",
+      "business_impact": "Revenue lost during the anomaly: ~₹4.6L. Spend wasted: ~₹3.9L. If undetected for a week, potential loss: ₹15L+. Fixing this protects all future revenue tracking.",
+      "recommended_action": "1. Check website checkout flow and payment gateway logs for May 14-15. 2. Verify Facebook Pixel / Google Ads conversion tracking is firing correctly. 3. Check if any website updates were deployed on May 13-14. 4. Set up automated alerts for ROAS drops >30% in a single day. 5. Implement a backup tracking method (server-side tracking) to prevent single points of failure. 6. Reconcile May 14-15 data once root cause is confirmed.",
+      "confidence_score": 0.88
+    },
+    {
+      "priority": "Medium",
+      "decision_title": "Refresh creatives for Tinted_SPF and VitC_Serum campaigns",
+      "what_happened": "Overall CTR declined from 1.29% to 1.20% and CVR dropped from 3.49% to 3.30% between the first and second half of the analysis period. Tinted_SPF (CTR 1.37%, CVR 3.53%) and VitC_Serum (CTR 1.19%, CVR 2.95%) show signs of creative fatigue. ROAS declined from 1.44x to 1.23x over the same period.",
+      "why_it_matters": "CTR and CVR declining together indicates creative fatigue — audiences are seeing the same ads repeatedly and engagement is dropping. This is a leading indicator of further ROAS decline. Fresh creatives typically restore CTR within 1-2 weeks.",
+      "business_impact": "If CTR and CVR return to first-half levels, estimated revenue recovery: ₹1.5L/month. If unaddressed, projected further ROAS decline: 10-15% over the next month, costing ₹2L+ in lost revenue.",
+      "recommended_action": "1. Launch 3 new creative variants for Tinted_SPF within 1 week. 2. Launch 3 new creative variants for VitC_Serum within 1 week. 3. Test different hooks: before/after, ingredient focus, social proof, urgency. 4. Rotate creatives weekly to prevent fatigue. 5. Pause any ad set with CTR below 1% for more than 5 days. 6. Set a creative refresh calendar — new variants every 2 weeks.",
+      "confidence_score": 0.82
+    },
+    {
+      "priority": "Medium",
+      "decision_title": "Reallocate budget from Barrier_Repair to higher-ROAS campaigns",
+      "what_happened": "Barrier_Repair_Conversions has a ROAS of 1.03x — barely breaking even. It spent ₹28L over 90 days to generate ₹28.8L in revenue, a profit of only ₹78K. CPA is ₹797, which is 51% higher than the overall average. Meanwhile, Retargeting_AllProducts achieves 4.14x ROAS with the same product catalog.",
+      "why_it_matters": "Barrier_Repair consumes 16% of total budget but delivers only 12% of revenue. The marginal rupee spent here generates ₹1.03 in revenue, while the same rupee in Retargeting generates ₹4.14. This is a clear budget allocation inefficiency.",
+      "business_impact": "If 50% of Barrier_Repair budget (₹1.2L/month) is reallocated to Retargeting at 4.14x ROAS: additional revenue ₹5L/month. Net profit improvement: ₹3.8L/month after accounting for the 1.03x ROAS on remaining budget.",
+      "recommended_action": "1. Reduce Barrier_Repair budget by 50% (from ₹31K/day to ₹15K/day). 2. Reallocate savings to Retargeting_AllProducts. 3. Test whether Barrier_Repair performs better with retargeting audiences instead of cold audiences. 4. If ROAS doesn't improve to 1.3x+ within 2 weeks, reduce budget by another 25%. 5. Consider merging Barrier_Repair into the Retargeting campaign as an additional ad set.",
+      "confidence_score": 0.78
+    }
+  ]
+}

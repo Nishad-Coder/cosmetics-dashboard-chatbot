@@ -1,0 +1,13 @@
+{
+  "total_lines": 140000,
+  "train_lines": 134400,
+  "val_lines": 2800,
+  "test_lines": 2800,
+  "review_lines": 100000,
+  "ads_lines_unique": 50,
+  "ads_repeat": 800,
+  "vocab_size": 434,
+  "total_words": 6495689,
+  "seed": 1234,
+  "note": "star_rating is included as a conditioning token per request, but it is statistically independent of review_text in the source data (sentiment gap across 1-5 stars = +0.001), so it is not usable as a supervision target."
+}

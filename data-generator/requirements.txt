@@ -1,0 +1,2 @@
+# No external packages needed - using only Python standard library
+# csv, random, os, datetime are all built-in
